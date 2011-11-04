@@ -1,3 +1,9 @@
+# revision 17582
+# category Package
+# catalog-ctan /macros/latex/contrib/mattens
+# catalog-date 2009-11-09 23:10:10 +0100
+# catalog-license lppl
+# catalog-version 1.3
 Name:		texlive-mattens
 Version:	1.3
 Release:	1
@@ -47,6 +53,7 @@ such as forces, velocities, moments of inertia, etc.
 #- source
 %doc %{_texmfdistdir}/source/latex/mattens/mattens.dtx
 %doc %{_texmfdistdir}/source/latex/mattens/mattens.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ such as forces, velocities, moments of inertia, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
