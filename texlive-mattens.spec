@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-mattens
 Version:	1.3
-Release:	9
+Release:	10
 Summary:	Matrices/tensor typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mattens
