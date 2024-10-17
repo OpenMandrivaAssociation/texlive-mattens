@@ -3,7 +3,7 @@ Version:	62326
 Release:	2
 Summary:	Matrices/tensor typesetting
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mattens
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mattens
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mattens.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mattens.doc.r%{version}.tar.xz
